@@ -507,32 +507,34 @@ img {
     border: none;
 }
 
-.clients-link {
-    display: inline-flex;
-    text-decoration: none;
+.clients-list {
     width: 170px;
     height: 92px;
+    border: 0;
+}
+
+.clients-link {
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
+    border: 1px solid var(--icon-grey-color);
+    border-radius: 4px;
 
     fill: var(--icon-grey-color);
-    outline: 1px solid var(--icon-grey-color);
-    border-radius: 4px;
 }
 
 .clients-list:not(:last-child) {
     margin-right: 30px;
 }
 
-.clients-icon {
-    width: 106px;
-    height: 60px;
-}
-
 .clients-link:hover,
 .clients-link:focus {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
+
 }
 
 
