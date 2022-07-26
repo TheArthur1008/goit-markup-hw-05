@@ -474,6 +474,7 @@ img {
 
     fill: var(--icon-grey-color);
     transition: all 0.2s ease-out;
+    border-radius: 50%;
 }
 
 
