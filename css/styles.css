@@ -789,6 +789,7 @@ img {
     display: block;
 
     text-decoration: none;
+    transition: all 0.2s ease-out;
 }
 
 .job-link:hover,
