@@ -195,7 +195,8 @@ img {
     background-size: cover;
 }
 
-.container.hero {
+.hero {
+    width: 693px;
     padding-top: 200px;
     padding-bottom: 200px;
 
@@ -203,7 +204,6 @@ img {
 }
 
 .hero-title {
-    width: 693px;
     margin-top: 0;
     margin-bottom: 30px;
     margin-left: auto;
